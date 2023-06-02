@@ -30,19 +30,28 @@ const Footer = () => {
                     esse cillum dolore eu fugiat nulla pariatur.
                 </div>
                 <div className="socialIcons">
-                    <span className="icon">
-                        <FaFacebookF />
-                    </span>
-                    <span className="icon">
-                        <FaInstagram />
-                    </span>
-                    <span className="icon">
-                        <FaTwitter />
-                    </span>
-                    <span className="icon">
-                        <FaLinkedin />
-                    </span>
-                </div>
+    <span className="icon">
+      <a href="https://www.facebook.com/thepasindu">
+        <FaFacebookF />
+      </a>
+    </span>
+    <span className="icon">
+      <a href="https://www.instagram.com/its_pasindu">
+        <FaInstagram />
+      </a>
+    </span>
+    <span className="icon">
+      <a href="https://www.twitter.com/itzpasindu">
+        <FaTwitter />
+      </a>
+    </span>
+    <span className="icon">
+      <a href="https://www.linkedin.com/p/pasindu-dewviman">
+        <FaLinkedin />
+      </a>
+    </span>
+</div>
+
             </ContentWrapper>
         </footer>
     );
